@@ -20,7 +20,7 @@ A texture pack is a json file which follows the following format:
 ```
 
 ## Customising the block atlas
-The block atlas is an image which contains the textures used for all blocks in bloxd. To create a new one, you should start with the default bloxd block atlas and edit it in a software like Pixlr. This is an old video so a lot has changed but it shows the general idea: https://www.youtube.com/watch?v=-BaQK7Zc0T8. Once you have a custom block atlas image, you can host it somewhere like imigur and use the URL to reference it, or convert it to a base64 URL (see Base64 URLs section for information on how to do this). To add this block atlas to your custom texture pack, your config should include the following:
+The block atlas is an image which contains the textures used for all blocks in bloxd. To create a new one, you should start with the default bloxd block atlas and edit it in a software like Pixlr. Once you have a custom block atlas image, you can host it somewhere like imigur and use the URL to reference it, or convert it to a base64 URL (see Base64 URLs section for information on how to do this). To add this block atlas to your custom texture pack, your config should include the following:
 ```
 {
     "blockAtlas"?: <URL or base64URL>,
