@@ -59,4 +59,4 @@ Or a custom sky box, where you define a image for 6 faces of a cube:
 ```
 
 # Base64 URLs
-To create a Base64 URL, just create one, L bozo if u can
+To create a Base64 URL, just create one, L bozo if u can't.
